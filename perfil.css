@@ -1,0 +1,66 @@
+.body{
+    background-color: rgb(0, 0, 0);
+   
+}
+.escrita{
+    font-size: 34px;
+    font-family: "Poppins", serif;
+    font-weight: 900;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; 
+}
+
+.container a {
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease-in-out; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black; 
+    text-decoration: none; 
+    padding: 10px;
+    font-family: "Poppins", serif;
+}
+.container a:hover {
+    transform: scale(1.05); 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0); 
+    border-color: red;
+    background-color: rgb(255, 0, 0); 
+}
+.container a img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; 
+}
+
+.container a p {
+    margin: 5px 0; 
+    color: rgb(0, 0, 0); 
+    transition: color 0.3s ease-in-out;
+    font-family: "Poppins", serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px; 
+    margin-top: 50px; 
+    margin-bottom: 30px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: red;
+}
+
+
+
